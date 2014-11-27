@@ -3,4 +3,15 @@
 2,"Bloor-Danforth","00FF00",NULL
 3,"Scarborough RT","0000FF",NULL
 4,"Sheppard","660099",NULL
-5,"501 Queen","FF0000","FFFFFF"
+501,"Queen","FF0000","FFFFFF"
+502,"Downtowner","FF0000","FFFFFF"
+503,"Kingston Road","FF0000","FFFFFF"
+504,"King","FF0000","FFFFFF"
+505,"Dundas","FF0000","FFFFFF"
+506,"Carlton","FF0000","FFFFFF"
+508,"Lake Shore","FF0000","FFFFFF"
+509,"Harbourfront","FF0000","FFFFFF"
+510,"Spadina","FF0000","FFFFFF"
+511,"Bathurst","FF0000","FFFFFF"
+512,"St. Clair","FF0000","FFFFFF"
+521,"Exhibition East","FF0000","FFFFFF"
