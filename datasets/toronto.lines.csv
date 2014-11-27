@@ -1,5 +1,5 @@
 "line","name","colour","stripe"
-1,"Yonge-University-Spadina","#FFFF00",NULL
-2,"Bloor-Danforth","#00FF00",NULL
-3,"Scarborough RT","#OOOOFF",NULL
-4,"Sheppard","#660099",NULL
+1,"Yonge-University-Spadina","FFFF00",NULL
+2,"Bloor-Danforth","00FF00",NULL
+3,"Scarborough RT","0000FF",NULL
+4,"Sheppard","660099",NULL
