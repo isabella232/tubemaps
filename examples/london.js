@@ -1,22 +1,7 @@
 var TubeMap = require('../').TubeMap;
-var readCSVs = require('../').readCSVs;
+var Maps = require('../').Maps;
+var london = require('../datasets/london.json')
 
-var files = {
-  connections: __dirname + '/../datasets/london.connections.csv',
-  lines: __dirname + '/../datasets/london.lines.csv',
-  stations: __dirname + '/../datasets/london.stations.csv'
-};
+var tube = new TubeMap(london);
 
-readCSVs(files, function(err, csvs) {
-
-  var tubemap = new TubeMap({
-    connections: csvs[0],
-    lines: csvs[1],
-    stations: csvs[2]
-  });
-
-  // How many connections does Victoria station have?
-  var victoria = tubemap.getStationByName('Victoria');
-  console.log(victoria.conns.length / 2)
-
-});
+module.exports = tube;
